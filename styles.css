@@ -1,0 +1,188 @@
+body {
+  background-color: hsl(185, 41%, 84%);
+  text-align: center;
+  font-family: "Space Mono", monospace;
+}
+
+.dollar,
+.perSign {
+  position: absolute;
+  margin-top: 9px;
+  margin-left: 10px;
+  z-index: 1;
+}
+
+.logo {
+  margin: 50px;
+}
+
+input {
+  text-align: right;
+}
+
+.container {
+  background-color: white;
+  display: flex;
+  width: 650px;
+  margin: 0 auto;
+  border-radius: 13px;
+  padding: 20px;
+}
+
+.main-right {
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 320px;
+}
+
+.main-left {
+  text-align: left;
+  margin-right: 40px;
+  line-height: 0px;
+  width: 320px;
+}
+
+.bttn::-webkit-input-placeholder {
+  color: hsl(183, 100%, 15%);
+}
+
+.bttn {
+  background-color: hsl(189, 41%, 97%);
+  width: 80px;
+  height: 35px;
+  border: 0px solid;
+  border-radius: 5px;
+  color: hsl(183, 100%, 13%);
+  font-size: 1rem;
+  font-family: "Space Mono", monospace;
+  text-align: center;
+}
+
+.btn-per {
+  width: 80px;
+  height: 35px;
+  border: 0px solid;
+  border-radius: 5px;
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  font-size: 1rem;
+  font-family: "Space Mono", monospace;
+}
+
+.tip-per {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+#amt,
+#people {
+  width: 260px;
+  height: 20px;
+  padding: 8px;
+  font-size: 24px;
+  border: 0px solid;
+  background-color: hsl(189, 41%, 97%);
+  border-radius: 5px;
+  color: hsl(183, 100%, 15%);
+  font-family: "Space Mono", monospace;
+}
+
+.right-0 {
+  font-size: 15px;
+  text-align: left;
+
+  line-height: 0px;
+}
+
+.right-1 {
+  color: hsl(172, 67%, 45%);
+}
+
+h6,
+.subTitle {
+  color: hsl(186, 14%, 43%);
+}
+
+.r1,
+.r2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0px solid;
+  background-color: hsl(172, 67%, 45%);
+  font-size: 12px;
+  margin: 50px auto 0 auto;
+  font-size: 1rem;
+}
+
+.btn-per:hover {
+  background-color: hsl(185, 41%, 84%);
+  color: hsl(183, 100%, 15%);
+}
+
+.btn:hover {
+  background-color: hsl(185, 41%, 84%);
+  color: hsl(183, 100%, 15%);
+}
+
+#amt,
+#people,
+.btn-per,
+.bttn,
+.btn {
+  cursor: pointer;
+}
+
+.lightGreen {
+  background-color: hsl(172, 67%, 45%);
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    margin: 0;
+  }
+
+  .main-left {
+    margin: 0%;
+    width: auto;
+  }
+
+  .btn-per {
+    width: 128px;
+    font-size: 1.2rem;
+    height: 39px;
+  }
+
+  .bttn {
+    width: 126px;
+  }
+
+  .container {
+    display: block;
+    width: auto;
+  }
+
+  .main-right {
+    width: auto;
+    margin-top: 28px;
+    align-items: center;
+  }
+
+  .r1,
+  .r2 {
+    height: 70px;
+  }
+
+  .btn {
+    margin-top: 25px;
+  }
+}
